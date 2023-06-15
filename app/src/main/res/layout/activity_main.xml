@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/user_code"
+        android:layout_width="match_parent"
+        android:layout_height="608dp"
+        android:layout_weight="1"
+        android:background="#373535"
+        android:hint="Enter Code here"
+        android:textColor="#ECE8E8"
+        android:textColorHint="#F1EEEE"
+        android:textSize="21sp" />
+
+</LinearLayout>
